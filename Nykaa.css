@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding:0%
+}
+.f-nav{
+    display: flex;
+    justify-content:center;
+    justify-content:space-around;
+    background-color:rgb(252,255,171);
+}
+.feature{
+    display: flex;
+
+}
+.feature .app{
+    display:flex;
+    margin-inline:22px;
+}
+.feature .app i{
+    margin-inline: 18px;
+}
+.sec nav{
+    display : flex;
+    justify-content:center;
+    justify-content: space-around;
+     padding :14px;
+}
+.sec-nav ul li img{
+    width: 8%;
+    margin-left:22px;
+}
+.sec-nav ul li a{
+    margin-inline:22px;
+}
+.sec-nav .inputs{
+    display:flex;
+}
+.sec-nav .inputs button{
+    margin-inline:22px;
+}
+.sec-nav .inputs input{
+    width:22px;
+    background-color:rgb(225,217,217);
+    border: none;
+    outline:none;
+    text-align:center;
+    font-size:16px;
+}
+.sec-nav .inputs button{
+    width:80px;
+    height: 35px;
+    background-color: rgb(251,106,130);
+    color : white;
+    font-size: 17px;
+    border:none;
+    border-radius:5px;
+
+} 
+.items{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    padding: 8px;
+}
+
+.items ul li a{
+    margin-inline: 22px;
+    text-align : center;
+}
+.items ul li button{
+    width:10px;
+    height:34px;
+    background-color: rgb(251,106,130);
+    color : white;
+    font-size: 17px;
+    border:none;
+    border-radius:5px;
+}
+.items ul li{
+    list-style:none;
+
+}
+.main page img{
+    width:100%; 
+}
+.pink img{
+    width:100%;
+}
+.pink h2{
+    text-align: center;
+    padding : 7px;
+}
+.brand h2{
+    text-align:center;
+
+}
+.card{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    margin-inline:33px;
+}
+.card img{
+    margin-inline:22px;
+    width :44%;
+
+}
+.brand h2{
+    text-align:center;
+    padding:22px;
+
+}
+.topbrd{
+    display:flex;
+
+}
+.topbrd img{
+    margin-inline:22px;
+    width:44%;
+
+}
+.onlynykaa h2{
+    text-align:center;
+    padding:22px;
+}
+.onlynykaa{
+    display:flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+.only img{
+    margin-inline:22px;
+    width:44%;
+}
+.new at nykaa{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    padding:22px;
+}
+.new at nykaa img{
+    width:22%;
+    margin-inline:18px;
+}
+.footer{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    background-color: grey;
+}
+.footer list{
+    flex-direction:column;
+}
+.footer list ul li{
+    list-style: none;
+    
+}
+.footer list ul li a{
+    font-weight:600;
+    font-size: 13px;
+}
+.footer list li ul h2{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
