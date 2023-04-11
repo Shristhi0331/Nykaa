@@ -34,17 +34,20 @@
 }
 .sec-nav .inputs{
     display:flex;
+    width: fit-content;
+    padding: 10px;
 }
 .sec-nav .inputs button{
     margin-inline:22px;
 }
 .sec-nav .inputs input{
-    width:22px;
+    width:fit-content;
     background-color:rgb(225,217,217);
     border: none;
     outline:none;
     text-align:center;
     font-size:16px;
+    border-radius:5%;
 }
 .sec-nav .inputs button{
     width:80px;
@@ -56,6 +59,12 @@
     border-radius:5px;
 
 } 
+
+.nykaa-bar ul li a:hover{
+    color:rgb(251,106,130);
+    text-transform: capitalize;  
+}
+
 .items{
     display:flex;
     justify-content:center;
@@ -68,7 +77,7 @@
     text-align : center;
 }
 .items ul li button{
-    width:10px;
+    width:75px;
     height:34px;
     background-color: rgb(251,106,130);
     color : white;
@@ -80,11 +89,17 @@
     list-style:none;
 
 }
-.main page img{
+.items ul li a:hover{
+        text-decoration: underline;
+    color:rgb(251,106,130) ;
+}
+.main-img img{
     width:100%; 
+    height:auto;
 }
 .pink img{
     width:100%;
+    height:auto;
 }
 .pink h2{
     text-align: center;
@@ -132,13 +147,13 @@
     margin-inline:22px;
     width:44%;
 }
-.new at nykaa{
+.newatnykaa{
     display:flex;
     justify-content:center;
     justify-content:space-around;
     padding:22px;
 }
-.new at nykaa img{
+.newatnykaa img{
     width:22%;
     margin-inline:18px;
 }
