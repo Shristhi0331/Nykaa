@@ -31,6 +31,9 @@
 }
 .sec-nav ul li a{
     margin-inline:22px;
+    font-weight:bold;
+     cursor: pointer;
+
 }
 .sec-nav .inputs{
     display:flex;
@@ -39,6 +42,7 @@
 }
 .sec-nav .inputs button{
     margin-inline:22px;
+    cursor:pointer;
 }
 .sec-nav .inputs input{
     width:fit-content;
@@ -59,6 +63,9 @@
     border-radius:5px;
 
 } 
+.sec-nav .inputs button:hover{
+    background-color:rgb(250, 151, 167) ;
+}
 
 .nykaa-bar ul li a:hover{
     color:rgb(251,106,130);
@@ -75,6 +82,7 @@
 .items ul li a{
     margin-inline: 22px;
     text-align : center;
+    cursor:pointer;
 }
 .items ul li button{
     width:75px;
@@ -84,6 +92,7 @@
     font-size: 17px;
     border:none;
     border-radius:5px;
+    cursor:pointer;
 }
 .items ul li{
     list-style:none;
