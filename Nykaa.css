@@ -2,14 +2,36 @@
     margin: 0%;
     padding:0%
 }
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.float-container {
+}
+.tab-bar{
+    display: flex;
+    padding-left: 55%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6w_w3wa_h-KIIi1V1vRYIlHwL4Vvaw-evSw&usqp=CAU) center/cover no-repeat fixed;
+}
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 60px;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4msFTH7QpT2NVnUo9RFsbWQyXwDjhubiSfA&usqp=CAU) center/cover no-repeat fixed;
+}  
 .f-nav{
     display: flex;
     justify-content:center;
     justify-content:space-around;
-    background-color:rgb(252,255,171);
+    background-color:rgb(250, 233, 239);
+    border-top: 1px solid purple;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-.feature{
+.nav-item{
     display: flex;
+
 
 }
 .feature .app{
@@ -93,9 +115,77 @@
     border:none;
     border-radius:5px;
     cursor:pointer;
+=======
+    padding-left: 50px;
 }
-.items ul li{
-    list-style:none;
+.d-block{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(113, 0, 251, 0.25) 0px 50px 100px -20px, rgba(98, 0, 255, 0.3) 0px 30px 60px -30px, rgba(102, 6, 235, 0.35) 0px -2px 6px 0px inset;
+}
+.d-block:hover{
+    transform: scale(1.05);
+    transition: 1.5s;
+    border-radius: 20px;
+    border: 3px solid palevioletred;
+}
+.float-container2 {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child2 {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    height: 300px;
+}  
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 20px 10px 20px;
+}
+
+.flex-item {
+    height: 200px;
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+}
+#flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4msFTH7QpT2NVnUo9RFsbWQyXwDjhubiSfA&usqp=CAU) center/cover no-repeat fixed;
+}
+
+.flex-item2 {
+    height: 200px;
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+}
+.float-containerr {
+    border: 3px solid #fff;
+    padding:10px 40px 10px 40px;
+    margin-bottom: 60px;
+}
+
+.float-childd {
+    width: 50%;
+    float: left;
+    padding:10px 40px;
+}  
+.d-block1{
+    margin: 20px;
+    display: flex;
+    float: left;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(113, 0, 251, 0.25) 0px 50px 100px -20px, rgba(98, 0, 255, 0.3) 0px 30px 60px -30px, rgba(102, 6, 235, 0.35) 0px -2px 6px 0px inset;
+}
 
 }
 .items ul li a:hover{
@@ -117,41 +207,23 @@
 .brand h2{
     text-align:center;
 
+.feature{
+    display: flex;
+
+
 }
-.card{
+.items{
     display:flex;
     justify-content:center;
     justify-content:space-around;
-    margin-inline:33px;
-}
-.card img{
-    margin-inline:22px;
-    width :44%;
-
-}
-.brand h2{
-    text-align:center;
-    padding:22px;
-
-}
-.topbrd{
-    display:flex;
-
-}
-.topbrd img{
-    margin-inline:22px;
-    width:44%;
-
-}
-.onlynykaa h2{
-    text-align:center;
-    padding:22px;
+    padding: 8px;
 }
 .onlynykaa{
     display:flex;
     justify-content: center;
     justify-content:space-around;
 }
+
 .only img{
     margin-inline:22px;
     width:44%;
@@ -186,6 +258,8 @@
 .footer list li ul h2{
     font-size: 13px;
 }
+ 
+
 
 
 
