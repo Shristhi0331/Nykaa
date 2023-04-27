@@ -1,17 +1,127 @@
 *{
-    margin: 0%;
-    padding:0%
-}
-body{
-    height: 100%;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.float-container {
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+
 }
-.tab-bar{
+
+/* Header */
+
+.header {
     display: flex;
-    padding-left: 55%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(250, 233, 239);
+    border-bottom: 1px solid purple;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: palevioletred;
+    border-bottom: 2px solid palevioletred;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6w_w3wa_h-KIIi1V1vRYIlHwL4Vvaw-evSw&usqp=CAU) center/cover no-repeat fixed;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-btn {
+    padding: 10px 30px;
+    background-color: palevioletred;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    background-color: #fff;
+    color: palevioletred;
+    border: 2px solid palevioletred;
+}
+
+/* Features */
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 48px;
+    color: palevioletred;
+}
+
+.feature-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+.feature-description {
+    color: #666;
+}
+
+
+
+
+
+ .tab-bar{
+    display: flex;
     background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6w_w3wa_h-KIIi1V1vRYIlHwL4Vvaw-evSw&usqp=CAU) center/cover no-repeat fixed;
 }
 .float-child {
@@ -23,8 +133,6 @@ body{
 }  
 .f-nav{
     display: flex;
-    justify-content:center;
-    justify-content:space-around;
     background-color:rgb(250, 233, 239);
     border-top: 1px solid purple;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -102,10 +210,6 @@ body{
     box-shadow: rgba(113, 0, 251, 0.25) 0px 50px 100px -20px, rgba(98, 0, 255, 0.3) 0px 30px 60px -30px, rgba(102, 6, 235, 0.35) 0px -2px 6px 0px inset;
 }
 
-.feature{
-    display: flex;
-
-}
 .items{
     display:flex;
     justify-content:center;
@@ -118,15 +222,103 @@ body{
     justify-content:space-around;
 }
 
+.footer {
+    background-color: #151823;
+    color: #666873;
+}
 
+.footer-container {
+    max-width: 116rem;
+    margin: auto;
+    padding: 0 1.5rem;
+    overflow: hidden;
+}
 
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 2rem;
+    padding-left: 2rem;
+}
 
+.footer-title {
+    font-size: 1rem;
+    color: #edecec;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
 
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
 
+.footer-list-item {
+    list-style: none;
 
+}
 
+.footer-list-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.25s;
+}
 
+.footer-list-link:hover {
+    color: #fff;
+}
 
+.footer-divider {
+    margin-block: 2.5rem;
+    border: none;
+    border-top: 1px solid rgba(252, 255, 255, 0.1)
+}
 
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
 
+.footer-bottom .footer-list {
+    flex-direction: row;
 
+}
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar {
+        margin-top: 20px;
+    }
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .banner {
+        height: 400px;
+    }
+    .banner-title {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .banner-btn {
+        font-size: 16px;
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature {
+        margin-bottom: 40px;
+    }
+    .products {
+        justify-content: center;
+    }
+    .product {
+        margin-bottom: 20px;
+    }
+}
