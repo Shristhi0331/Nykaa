@@ -1,0 +1,144 @@
+body{
+    background-image: url("https://rare-gallery.com/uploads/posts/1230760-color-splash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fblock{
+    position: relative;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    border: 1px solid aliceblue;
+    background: rgba(255,255,255,0.2);
+    z-index: 1;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+form{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+label{
+    color: aliceblue;
+    font-size: 17px;
+}
+::placeholder{
+    font-size: 15px;
+}
+button{
+    margin-left: 45%;
+}
+.cir{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    background: linear-gradient(to top left, rgb(34, 57, 210), rgb(212, 81, 199));
+    opacity: 0.6;
+    position: absolute;
+    top: 450px;
+    left: 150px;
+}
+.cir2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    background: linear-gradient(to top left, rgb(22, 117, 225), rgb(222, 52, 52));
+    opacity: 0.6;
+    position: absolute;
+    top: 80px;
+    left: 900px;
+}
+.b1{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to top left, rgb(26, 76, 240), rgb(234, 64, 21));
+    opacity: 0.7;
+    position: absolute;
+    top: 400px;
+    left: 1020px;
+}
+.b2{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to top left, rgb(34, 57, 210), rgb(212, 81, 199));
+    opacity: 0.6;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+ul{
+    position: relative;
+    display: flex;
+    z-index: 2;
+    margin-left: 360px;
+    margin-top: 45px;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    align-items: center;
+}
+ul li a{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 2em;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 1px 1px 5px white;
+    backdrop-filter: blur(2px);
+    transition: 0.5s;
+    overflow: hidden;
+}
+ul li a:hover{
+    transform: translateY(-20px);
+}
+ul li a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    transform: skewX(45deg) translateX(150px);
+    transition: 0.5s;
+}
+ul li a:hover::before{
+    transform: skewX(45deg) translateX(-150px);
+}
+.fblock::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    transform: skewX(45deg) translateX(150px);
+    transition: 0.5s;
+}
+.fblock:hover::before{
+    transform: skewX(45deg) translateX(-150px);
+}
