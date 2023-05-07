@@ -31,6 +31,91 @@ body{
 }
 .nav-item{
     display: flex;
+
+
+}
+.feature .app{
+    display:flex;
+    margin-inline:22px;
+}
+.feature .app i{
+    margin-inline: 18px;
+}
+.sec nav{
+    display : flex;
+    justify-content:center;
+    justify-content: space-around;
+     padding :14px;
+}
+.sec-nav ul li img{
+    width: 8%;
+    margin-left:22px;
+}
+.sec-nav ul li a{
+    margin-inline:22px;
+    font-weight:bold;
+     cursor: pointer;
+
+}
+.sec-nav .inputs{
+    display:flex;
+    width: fit-content;
+    padding: 10px;
+}
+.sec-nav .inputs button{
+    margin-inline:22px;
+    cursor:pointer;
+}
+.sec-nav .inputs input{
+    width:fit-content;
+    background-color:rgb(225,217,217);
+    border: none;
+    outline:none;
+    text-align:center;
+    font-size:16px;
+    border-radius:5%;
+}
+.sec-nav .inputs button{
+    width:80px;
+    height: 35px;
+    background-color: rgb(251,106,130);
+    color : white;
+    font-size: 17px;
+    border:none;
+    border-radius:5px;
+
+} 
+.sec-nav .inputs button:hover{
+    background-color:rgb(250, 151, 167) ;
+}
+
+.nykaa-bar ul li a:hover{
+    color:rgb(251,106,130);
+    text-transform: capitalize;  
+}
+
+.items{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    padding: 8px;
+}
+
+.items ul li a{
+    margin-inline: 22px;
+    text-align : center;
+    cursor:pointer;
+}
+.items ul li button{
+    width:75px;
+    height:34px;
+    background-color: rgb(251,106,130);
+    color : white;
+    font-size: 17px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+=======
     padding-left: 50px;
 }
 .d-block{
@@ -102,8 +187,29 @@ body{
     box-shadow: rgba(113, 0, 251, 0.25) 0px 50px 100px -20px, rgba(98, 0, 255, 0.3) 0px 30px 60px -30px, rgba(102, 6, 235, 0.35) 0px -2px 6px 0px inset;
 }
 
+}
+.items ul li a:hover{
+        text-decoration: underline;
+    color:rgb(251,106,130) ;
+}
+.main-img img{
+    width:100%; 
+    height:auto;
+}
+.pink img{
+    width:100%;
+    height:auto;
+}
+.pink h2{
+    text-align: center;
+    padding : 7px;
+}
+.brand h2{
+    text-align:center;
+
 .feature{
     display: flex;
+
 
 }
 .items{
@@ -117,6 +223,43 @@ body{
     justify-content: center;
     justify-content:space-around;
 }
+
+.only img{
+    margin-inline:22px;
+    width:44%;
+}
+.newatnykaa{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    padding:22px;
+}
+.newatnykaa img{
+    width:22%;
+    margin-inline:18px;
+}
+.footer{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    background-color: grey;
+}
+.footer list{
+    flex-direction:column;
+}
+.footer list ul li{
+    list-style: none;
+    
+}
+.footer list ul li a{
+    font-weight:600;
+    font-size: 13px;
+}
+.footer list li ul h2{
+    font-size: 13px;
+}
+ 
+
 
 
 
