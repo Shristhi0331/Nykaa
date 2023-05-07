@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Customer Bill Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Customer Bill Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="item">Item:</label>
+            <input type="text" id="item" name="item" required><br>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" min="0" required><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required><br>
+
+            <label for="total">Total:</label>
+            <input type="text" id="total" name="total" readonly><br>
+
+            <input type="button" value="Calculate Total" onclick="calculateTotal()">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
